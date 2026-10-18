@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap Lanjutan</title>
+
+    <!-- Memanggil CSS Bootsrap Lokal yang sudah di download -->
+     <link rel="stylesheet" href="Bootstrap5.3/css/bootstrap.min.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+
+    <!-- CSS Bootstrap Lokal -->
+    <link rel="stylesheet" href="bootstrap 5.3/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <!-- 1. NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="py-5 text-center bg-white border-bottom">
+        <div class="container py-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold text-dark">Halo, Saya Web & IoT Developer!</h1>
+                    <p class="lead text-muted my-3">
+                        Selamat datang di portofolio saya. Saya berfokus pada pengembangan aplikasi web responsive serta integrasi perangkat keras Internet of Things (IoT).
+                    </p>
+                    <a href="#projects" class="btn btn-primary btn-lg me-2 shadow-sm">Lihat Project</a>
+                    <a href="#contact" class="btn btn-outline-secondary btn-lg shadow-sm">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Tentang Saya</h2>
+                <div class="border-bottom border-primary border-3 w-25 mx-auto mt-2"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center fs-5 text-secondary">
+                    <p>
+                        Saya suka mempelajari hal-hal baru seputar pemrograman web, mulai dari dasar HTML/CSS, framework modern seperti Bootstrap & React.js, hingga membangun sistem pemantauan hardware berbasis mikrokontroler.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="py-5 bg-white border-top border-bottom">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Project Terbaru</h2>
+                <div class="border-bottom border-primary border-3 w-25 mx-auto mt-2"></div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2 p-2">Web Design</span>
+                            <h5 class="card-title fw-bold">Portofolio Responsive</h5>
+                            <p class="card-text text-muted">
+                                Website portofolio pribadi yang dibuat menggunakan HTML, CSS, dan Bootstrap 5 dengan tampilan yang bersih dan responsive di layar HP maupun Laptop.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2 p-2">IoT System</span>
+                            <h5 class="card-title fw-bold">Monitoring Daya Listrik</h5>
+                            <p class="card-text text-muted">
+                                Sistem pemantauan rugi-rugi daya listrik (loss daya) terintegrasi mikrokontroler dan dashboard berbasis IoT.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2 p-2">JavaScript</span>
+                            <h5 class="card-title fw-bold">Kalkulator Umur</h5>
+                            <p class="card-text text-muted">
+                                Script aplikasi sederhana berbasis JavaScript untuk menghitung umur pengguna secara akurat berdasarkan tanggal lahir.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-100">Detail Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CONTACT SECTION -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Hubungi Saya</h2>
+                <div class="border-bottom border-primary border-3 w-25 mx-auto mt-2"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label font-semibold">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama kamu">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="nama@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tuliskan pesan kamu di sini..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 shadow-sm">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 AzisAnce. Dibuat dengan Bootstrap 5.</p>
+    </footer>
+
+    <!-- JS Bootstrap Lokal -->
+    <script src="bootstrap 5.3/js/bootstrap.min.js"></script>
+</body>
+</html>
